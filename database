@@ -1,0 +1,9 @@
+******************************************
+********* JAWSDB - MySql *****************
+******************************************
+
+Backup DUMP
+-----------
+C:\Program Files\MySQL\MySQL Server 8.0\bin> .\mysqldump.exe -h <host> -u <usuario> -p<password> <database> C:\backup.sql --column-statistics=0 --set-gtid-purged=OFF --no-tablespaces
+
+
